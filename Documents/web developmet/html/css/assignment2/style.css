@@ -1,0 +1,40 @@
+body{
+    background-image:url(https://pbs.twimg.com/media/FJC8fKPaUAI0E6D.jpg) ;
+    background-repeat: no-repeat;
+
+}
+img{
+    height: 150px;
+    border: 5px double black;
+    padding: 6px;
+    transition: 0.2s
+}
+.right-align{
+    float: right;
+    margin: 0 20px  6px 12px;
+}
+
+.left-align{
+    float: left;
+    margin: 0 12px 6px 0;
+}
+
+p{
+    text-align: justify;
+    /* border: 2px solid black; */
+}
+
+h2{
+    text-align: center;
+}
+
+.right-align:hover{
+    border: 6px double red;
+    transform: scale(1.05);
+    /* box-shadow:6px 6px 18px rgba(0, 0, 0, 0.5); */box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.left-align:hover{
+    border: 6px double blue;
+    box-shadow:6px 6px 18px rgba(0, 0, 0, 0.5);
+}
