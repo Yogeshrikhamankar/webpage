@@ -1,0 +1,22 @@
+.square-box{
+  height: 50px;
+  width:50% ;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+.red{
+  /* width: 50px; */
+  background-color: red;
+}
+.blue{
+  /* width: 70px; */
+  background-color: blue;
+}
+.green{
+  /* width: 90px; */
+  background-color: green;
+}
+.yellow{
+  /* width: 120px; */
+  background-color: yellow;
+}
